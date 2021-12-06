@@ -1,0 +1,207 @@
+<!DOCTYPE html><html>
+        <head>
+        <title>cad2021 homework site</title>
+        <meta charset="utf-8">
+<meta property="head" content="H2">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/magnific-popup.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/jquery-ui.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap-datepicker.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/flaticon/font/flaticon.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/aos.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/style.css">
+        <link rel="shortcut icon" href="./../cmsimde/static/favicons.png">
+        
+        <style type='text/css'>
+            .site-section {
+            background-color: #FFFF;
+            padding: 40px 40px;
+            }
+            body > div > div.dropdown.open {
+                display: block;
+            }
+        </style>
+    
+        <!-- <script src="./../cmsimde/static/jquery.js"></script> -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+        <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/normalize.min.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch_set.js"></script>
+        <script src="tipuesearch_content.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/tipuesearch.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch.js"></script>
+        <!-- for Wink3 -->
+        <link rel="stylesheet" type="text/css" href="./../cmsimde/static/winkPlayer.css" />
+        <script type="text/javascript" src="./../cmsimde/static/winkPlayer.js"></script>
+        <script>
+            /* original tipuesearch
+            $(document).ready(function() {
+                 $('#tipue_search_input').tipuesearch();
+            });
+            */
+            // customed doSearch
+            function doSearch() {
+                $('#tipue_search_input').tipuesearch({
+                    newWindow: true, 
+                    minimumLength: 2,
+                    wholeWords: false, // for search 中文
+                });
+            }
+            $(document).ready(doSearch);
+        </script>
+        
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushBash.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDiff.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushHaxe.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPowerShell.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDart.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushRust.js"></script>
+<link type="text/css" rel="stylesheet" href="./../cmsimde/static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+<!-- 暫時不用
+<script src="./../cmsimde/static/fengari-web.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+<style>
+img.add_border {
+    border: 3px solid blue;
+}
+</style>
+
+</head>
+<body>
+<div class='container-fluid'><nav>
+        
+    <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    
+            <header class="site-navbar py-4 bg-white" role="banner">
+              <div class="container-fluid">
+                <div class="row align-items-center">
+                <h1>mdecourse - 2021 Fall 電腦輔助設計實習 作業網站</h1>
+                <div class="pl-4">
+                    <form>
+                    <input type="text" placeholder="Search" name="q" id="tipue_search_input" pattern=".{2,}" title="At least 2 characters" required>
+                    </form>
+                </div>
+                  <!-- <div class="col-11 col-xl-2">
+                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">mdecourse - 2021 Fall 電腦輔助設計實習 作業網站</a></h1> 
+                  </div>
+                  -->
+                  <div class="col-12 col-md-10 d-none d-xl-block">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+    <ul class='site-menu js-clone-nav mr-auto d-none d-lg-block'>
+                        <li class="active has-children"><a href="index.html">Home</a>
+                        <ul class="dropdown">
+                            <li><a href="sitemap.html">Site Map</a></li>
+                            <li><a href="./../reveal/index.html">reveal</a></li>
+                            <li><a href="./../blog/index.html">blog</a></li>
+                        </ul>
+                      </li>
+                     <li class='has-children'><a href='About.html'>About</a><ul class='dropdown'><li><a href='W7 分組.html'>W7 分組</a><li><a href='GitExtensions.html'>GitExtensions</a><li><a href='run.html'>run</a><li><a href='runsrc.html'>runsrc</a><li><a href='Hybrid.html'>Hybrid</a><li><a href='server.html'>server</a></li></ul><li class='has-children'><a href='HW1.html'>HW1</a><ul class='dropdown'><li class='has-children'><a href='CAD1 繪圖.html'>CAD1 繪圖</a><ul class='dropdown'><li><a href='CAD1 安裝配置.html'>CAD1 安裝配置</a><li><a href='CAD1 操作流程.html'>CAD1 操作流程</a></li></ul><li class='has-children'><a href='CAD2 繪圖.html'>CAD2 繪圖</a><ul class='dropdown'><li><a href='CAD2 安裝配置.html'>CAD2 安裝配置</a><li><a href='CAD2 操作流程.html'>CAD2 操作流程</a></li></ul><li><a href='運動場景.html'>運動場景</a></li></ul><li class='has-children'><a href='W10.html'>W10</a><ul class='dropdown'><li class='has-children'><a href='W11.html'>W11</a><ul class='dropdown'><li><a href='W11 查驗.html'>W11 查驗</a></li></ul><li><a href='W12.html'>W12</a></li></ul><li><a href='HW1-1.html'>HW1-1</a><li><a href='HW2.html'>HW2</a><li><a href='HW3.html'>HW3</a><li><a href='Final Project.html'>Final Project</a></li>
+                      </ul>
+                </nav>
+              </div>
+              <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+              </div>
+
+            </div>
+          </div>
+          
+        </header>
+    <div id="tipue_search_content">Hybrid << <a href='Hybrid.html'>Previous</a> <a href='HW1.html'>Next</a> >> HW1<br /><h1>server</h1>
+<p>因為自 W7 之後每 7 ~ 8 人一組將共用六台新電腦與一台伺服器, 因此可以設法在 server 中打造 Fossil SCM server 與 Flask 伺服程式 (執行各組學員的 cad2021_hw 動態系統). 詳細內容請參考 <a href="https://mde.tw/pj2022/content/AWCMS.html">https://mde.tw/pj2022/content/AWCMS.html</a></p>
+<p>以下將要針對執行電腦輔助設計實習作業過程, 各組將如何利用所分配到的 server 電腦 (第三磁區沒有保護).</p>
+<p>由於 server 操作系統為 Windows 10 因此在建立 <a href="https://www.fossil-scm.org">Fossil SCM</a> server 時將會用到 <a href="https://nssm.cc/">NSSM</a>, <a href="https://www.fossil-scm.org">Fossil SCM</a> 與 <a href="https://www.stunnel.org/">Stunnel</a>.</p>
+<p>至於建立 cad2021_hw 動態網站伺服器則需要 <a href="https://nssm.cc/">NSSM</a>, <a href="https://nginx.org/">Nginx</a>, <a href="https://flask.palletsprojects.com/en/2.0.x/">Flask</a> 與 <a href="https://flask.palletsprojects.com/en/2.0.x/tutorial/deploy/">waitress</a>.</p>
+<p>至於所有自行簽署數位簽章的 https 網站, 最終都將要利用 IPv6 連線, 從 <a href="https://letsencrypt.org/">LetsEncrypt</a> 取得正式的 https 數位簽章.</p>
+<p>其中:</p>
+<p><a href="https://nssm.cc/">NSSM</a>: 將 Windows 10 中的程式執行設為 service.</p>
+<p><a href="https://flask.palletsprojects.com/en/2.0.x/">Flask</a>: <a href="https://github.com/mdecourse/cmsimde">cmsimde</a> 所使用的網際框架.</p>
+<p><a href="https://www.fossil-scm.org">Fossil SCM</a>: 分散式版次管理, 可用來建立可自行維護的類 Github 網際分散式版次管理系統.</p>
+<p style="padding-left: 30px;">將會使用 <a href="https://fossil-scm.org/home/help/init">fossil init</a>, <a href="https://fossil-scm.org/home/help/http">fossil http</a>, <a href="https://fossil-scm.org/home/help/server">fossil server</a>, <a href="https://www.fossil-scm.org/home/help?cmd=user">fossil user password</a> 等指令 (<a href="https://fossil-scm.org/home/help/add">fossil add</a> 與 <a href="https://fossil-scm.org/home/help/push">fossil push</a> 同 git 指令, 但 <a href="https://fossil-scm.org/home/help?cmd=commit">fossil commit</a> 可設定 <a href="https://fossil-scm.org/home/help?cmd=autosync">autosync</a>, 且 <a href="https://fossil-scm.org/home/help/addremove">fossil addremove</a> 概念與 git 不同).</p>
+<p><a href="https://www.stunnel.org/">Stunnel</a>: 提供 <a href="https://www.fossil-scm.org">Fossil SCM</a> server 的 https proxy 服務.</p>
+<p><a href="https://nginx.org/">Nginx</a>: 提供 <a href="https://flask.palletsprojects.com/en/2.0.x/">Flask</a> 網際程式 https 並伺服 cad2021_hw 倉儲的靜態網頁.</p>
+<p><a href="https://flask.palletsprojects.com/en/2.0.x/tutorial/deploy/">waitree</a>: 以 production 模式執行 <a href="https://flask.palletsprojects.com/en/2.0.x/">Flask</a> 網際程式.</p>
+<p></p>
+<p></p><br />Hybrid << <a href='Hybrid.html'>Previous</a> <a href='HW1.html'>Next</a> >> HW1</div>
+        
+    <!-- footer -->
+      <div class="container">
+        <div class="row pt-3 mx-auto">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+      </div>
+    <!-- for footer -->
+    
+        </div> <!-- for site wrap -->
+            <!-- <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script> -->
+            <script src="../cmsimde/static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery-ui.js"></script>
+            <script src="../cmsimde/static/chimper/js/popper.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/owl.carousel.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.stellar.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.countdown.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.magnific-popup.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap-datepicker.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/aos.js"></script>
+            <!--
+            <script src="../cmsimde/static/chimper/js/typed.js"></script>
+                    <script>
+                    var typed = new Typed('.typed-words', {
+                    strings: ["Web Apps"," WordPress"," Mobile Apps"],
+                    typeSpeed: 80,
+                    backSpeed: 80,
+                    backDelay: 4000,
+                    startDelay: 1000,
+                    loop: true,
+                    showCursor: true
+                    });
+                    </script>
+            -->
+            <script src="../cmsimde/static/chimper/js/main.js"></script>
+        
+<!-- 啟用 LaTeX equations 編輯 -->
+  <!-- <script>
+  MathJax = {
+    tex: {inlineMath: [['$', '$'], ['\(', '\)']]}
+  };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>-->
+    </body></html>
+        

@@ -1,0 +1,1068 @@
+Microsoft Windows [版本 10.0.18363.1556]
+(c) 2019 Microsoft Corporation. 著作權所有，並保留一切權利。
+
+Y:\>c:
+
+C:\compile_copsim>cd ..
+
+C:\>cd tmp
+
+C:\tmp>git clone --recurse-submodules https://github.com/solvespace/solvespace.git
+Cloning into 'solvespace'...
+remote: Enumerating objects: 14642, done.
+remote: Counting objects: 100% (514/514), done.
+remote: Compressing objects: 100% (279/279), done.
+remote: Total 14642 (delta 301), reused 381 (delta 234), pack-reused 14128
+Receiving objects: 100% (14642/14642), 20.53 MiB | 10.12 MiB/s, done.
+Resolving deltas: 100% (10995/10995), done.
+Submodule 'extlib/angle' (https://github.com/solvespace/angle) registered for path 'extlib/angle'
+Submodule 'extlib/cairo' (https://github.com/solvespace/cairo) registered for path 'extlib/cairo'
+Submodule 'extlib/freetype' (https://git.savannah.nongnu.org/r/freetype/freetype2.git/) registered for path 'extlib/freetype'
+Submodule 'extlib/libdxfrw' (https://github.com/solvespace/libdxfrw.git) registered for path 'extlib/libdxfrw'
+Submodule 'extlib/libpng' (https://github.com/glennrp/libpng) registered for path 'extlib/libpng'
+Submodule 'extlib/mimalloc' (https://github.com/microsoft/mimalloc) registered for path 'extlib/mimalloc'
+Submodule 'extlib/pixman' (https://github.com/solvespace/pixman) registered for path 'extlib/pixman'
+Submodule 'extlib/zlib' (https://github.com/madler/zlib) registered for path 'extlib/zlib'
+Cloning into 'C:/tmp/solvespace/extlib/angle'...
+remote: Enumerating objects: 63606, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 63606 (delta 0), reused 0 (delta 0), pack-reused 63603
+Receiving objects: 100% (63606/63606), 27.20 MiB | 10.21 MiB/s, done.
+Resolving deltas: 100% (53426/53426), done.
+Cloning into 'C:/tmp/solvespace/extlib/cairo'...
+remote: Enumerating objects: 67674, done.
+remote: Total 67674 (delta 0), reused 0 (delta 0), pack-reused 67674
+Receiving objects: 100% (67674/67674), 85.75 MiB | 10.33 MiB/s, done.
+Resolving deltas: 100% (49985/49985), done.
+Cloning into 'C:/tmp/solvespace/extlib/freetype'...
+warning: unable to unlink 'C:/tmp/solvespace/.git/modules/extlib/freetype/objects/59/7a786a34c4cf33bfde0d46468cd0b2a0ca3323.temp': Invalid argument
+warning: unable to unlink 'C:/tmp/solvespace/.git/modules/extlib/freetype/objects/0e/0ddbd98fd73698b9e7ad8eac29408e5c1ba95f.temp': Invalid argument
+warning: unable to unlink 'C:/tmp/solvespace/.git/modules/extlib/freetype/objects/45/5d3b837248e18854f177ba8a6035247d5d0b67.temp': Invalid argument
+warning: unable to unlink 'C:/tmp/solvespace/.git/modules/extlib/freetype/objects/1a/f1db5ffd5da28826769f01f9af1c5dc2deb72d.temp': Invalid argument
+warning: unable to unlink 'C:/tmp/solvespace/.git/modules/extlib/freetype/objects/41/6627411d5373c2d89fa05dcf3d0c3cb54323a8.temp': Invalid argument
+Fetching objects: 83404, done.
+Cloning into 'C:/tmp/solvespace/extlib/libdxfrw'...
+remote: Enumerating objects: 215, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 215 (delta 1), reused 1 (delta 0), pack-reused 208
+Receiving objects: 100% (215/215), 1.17 MiB | 5.20 MiB/s, done.
+Resolving deltas: 100% (133/133), done.
+Cloning into 'C:/tmp/solvespace/extlib/libpng'...
+remote: Enumerating objects: 107063, done.
+remote: Total 107063 (delta 0), reused 0 (delta 0), pack-reused 107063
+Receiving objects: 100% (107063/107063), 38.91 MiB | 10.38 MiB/s, done.
+Resolving deltas: 100% (96965/96965), done.
+Cloning into 'C:/tmp/solvespace/extlib/mimalloc'...
+remote: Enumerating objects: 9676, done.
+remote: Counting objects: 100% (1350/1350), done.
+remote: Compressing objects: 100% (643/643), done.
+remote: Total 9676 (delta 995), reused 999 (delta 707), pack-reused 8326
+Receiving objects: 100% (9676/9676), 3.53 MiB | 7.35 MiB/s, done.
+Resolving deltas: 100% (7412/7412), done.
+Cloning into 'C:/tmp/solvespace/extlib/pixman'...
+remote: Enumerating objects: 11028, done.
+remote: Total 11028 (delta 0), reused 0 (delta 0), pack-reused 11028
+Receiving objects: 100% (11028/11028), 2.94 MiB | 7.07 MiB/s, done.
+Resolving deltas: 100% (8425/8425), done.
+Cloning into 'C:/tmp/solvespace/extlib/zlib'...
+remote: Enumerating objects: 5168, done.
+remote: Counting objects: 100% (17/17), done.
+remote: Compressing objects: 100% (14/14), done.
+remote: Total 5168 (delta 5), reused 6 (delta 3), pack-reused 5151
+Receiving objects: 100% (5168/5168), 3.68 MiB | 8.21 MiB/s, done.
+Resolving deltas: 100% (3618/3618), done.
+Submodule path 'extlib/angle': checked out '8776e911bf71f68518ddd1995ce09d80db8c1216'
+Submodule path 'extlib/cairo': checked out 'd4724ee921c4fa399ccbd0019c3d6917452e0ffd'
+Submodule path 'extlib/freetype': checked out '069083cccd73d1d68da68116c8d050bb62cdfe0e'
+Submodule path 'extlib/libdxfrw': checked out '0b7b7b709d9299565db603f878214656ef5e9ddf'
+Submodule path 'extlib/libpng': checked out 'dbe3e0c43e549a1602286144d94b0666549b18e6'
+Submodule path 'extlib/mimalloc': checked out '4e643b6d3178e0ea2a093b7e14fe621631a91e4b'
+Submodule path 'extlib/pixman': checked out '127f1a7ad3eb88f7e74c83f89590fa8ee76853ae'
+Submodule path 'extlib/zlib': checked out '2fa463bacfff79181df1a5270fb67cc679a53e71'
+
+C:\tmp>cd solvespace
+
+C:\tmp\solvespace>mkdir build
+
+C:\tmp\solvespace>
+
+C:\tmp\solvespace>cd build
+
+C:\tmp\solvespace\build>
+C:\tmp\solvespace\build>cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release
+CMake Deprecation Warning at CMakeLists.txt:14 (cmake_policy):
+  The OLD behavior for policy CMP0048 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+-- The C compiler identification is GNU 10.3.0
+-- The CXX compiler identification is GNU 10.3.0
+-- The ASM compiler identification is GNU
+-- Found assembler: Y:/msys64_20210419/mingw64/bin/gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: Y:/msys64_20210419/mingw64/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: Y:/msys64_20210419/mingw64/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test HAS_FILE_PREFIX_MAP
+-- Performing Test HAS_FILE_PREFIX_MAP - Success
+-- Using in-tree libdxfrw
+-- Using in-tree mimalloc
+--
+-- Library base name: mimalloc
+-- Build type       : release
+-- Compiler         : Y:/msys64_20210419/mingw64/bin/gcc.exe
+-- Install directory: C:/Program Files (x86)/solvespace/lib/mimalloc-2.0
+-- Build targets    : static
+--
+-- Using in-tree zlib
+CMake Deprecation Warning at extlib/zlib/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of off64_t
+-- Check size of off64_t - done
+-- Looking for fseeko
+-- Looking for fseeko - found
+-- Looking for unistd.h
+-- Looking for unistd.h - found
+-- Renaming
+--     C:/tmp/solvespace/extlib/zlib/zconf.h
+-- to 'zconf.h.included' because this file is included with zlib
+-- but CMake generates it automatically in the build directory.
+-- Found ZLIB: zlibstatic (found version "1.2.9")
+-- Using in-tree libpng
+-- Found ZLIB: zlibstatic
+-- Performing Test HAVE_LD_VERSION_SCRIPT
+-- Performing Test HAVE_LD_VERSION_SCRIPT - Failed
+-- Performing Test HAVE_SOLARIS_LD_VERSION_SCRIPT
+-- Performing Test HAVE_SOLARIS_LD_VERSION_SCRIPT - Failed
+-- Found PNG: png_static (found version "1.6.38.git")
+-- Using in-tree freetype
+CMake Deprecation Warning at extlib/freetype/CMakeLists.txt:78 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Creating directory C:/tmp/solvespace/build/extlib/freetype/include/freetype/config
+-- Creating file C:/tmp/solvespace/build/extlib/freetype/include/freetype/config/ftconfig.h
+-- Creating file C:/tmp/solvespace/build/extlib/freetype/include/freetype/config/ftoption.h
+-- Found Freetype: freetype (found version "2.10.4")
+-- Using in-tree pixman
+-- Building pixman version 0.34.1
+-- Performing Test USE_INLINE_inline
+-- Performing Test USE_INLINE_inline - Success
+-- Looking for getisax
+-- Looking for getisax - not found
+-- Check size of long
+-- Check size of long - done
+-- Performing Test HAS_Wall
+-- Performing Test HAS_Wall - Success
+-- Performing Test HAS_Wdeclaration_after_statement
+-- Performing Test HAS_Wdeclaration_after_statement - Success
+-- Performing Test HAS_Wno_unused_local_typedefs
+-- Performing Test HAS_Wno_unused_local_typedefs - Success
+-- Performing Test HAS_fno_strict_aliasing
+-- Performing Test HAS_fno_strict_aliasing - Success
+-- Found OpenMP_C: -fopenmp (found version "4.5")
+-- Found OpenMP_CXX: -fopenmp (found version "4.5")
+-- Found OpenMP: TRUE (found version "4.5")
+-- Performing Test USE_LOONGSON_MMI
+-- Performing Test USE_LOONGSON_MMI - Failed
+-- Performing Test USE_X86_MMX
+-- Performing Test USE_X86_MMX - Success
+-- Performing Test USE_SSE2
+-- Performing Test USE_SSE2 - Success
+-- Performing Test USE_SSSE3
+-- Performing Test USE_SSSE3 - Success
+-- Performing Test USE_VMX
+-- Performing Test USE_VMX - Failed
+-- Performing Test USE_ARM_SIMD
+-- Performing Test USE_ARM_SIMD - Failed
+-- Performing Test USE_ARM_NEON
+-- Performing Test USE_ARM_NEON - Failed
+-- Performing Test USE_ARM_IWMMXT
+-- Performing Test USE_ARM_IWMMXT - Failed
+-- Performing Test USE_MIPS_DSPR2
+-- Performing Test USE_MIPS_DSPR2 - Failed
+-- Performing Test USE_GCC_INLINE_ASM
+-- Performing Test USE_GCC_INLINE_ASM - Success
+-- Found PkgConfig: Y:/msys64_20210419/mingw64/bin/pkg-config.exe (found version "1.7.4")
+-- Checking for module 'gtk+-2.0>=2.16'
+--   Package 'gtk+-2.0', required by 'virtual:world', not found
+-- Looking for posix_memalign
+-- Looking for posix_memalign - not found
+-- Looking for sigaction
+-- Looking for sigaction - not found
+-- Looking for alarm
+-- Looking for alarm - found
+-- Looking for sys/mman.h
+-- Looking for sys/mman.h - not found
+-- Looking for mmap
+-- Looking for mmap - not found
+-- Looking for mprotect
+-- Looking for mprotect - found
+-- Looking for getpagesize
+-- Looking for getpagesize - found
+-- Looking for fenv.h
+-- Looking for fenv.h - found
+-- Looking for feenableexcept
+-- Looking for feenableexcept - not found
+-- Looking for FE_DIVBYZERO
+-- Looking for FE_DIVBYZERO - found
+-- Looking for gettimeofday
+-- Looking for gettimeofday - found
+-- Performing Test HAVE_SQRTF
+-- Performing Test HAVE_SQRTF - Success
+-- Performing Test HAVE_TLS___thread
+-- Performing Test HAVE_TLS___thread - Success
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Performing Test TOOLCHAIN_SUPPORTS_ATTRIBUTE_CONSTRUCTOR
+-- Performing Test TOOLCHAIN_SUPPORTS_ATTRIBUTE_CONSTRUCTOR - Success
+-- Performing Test HAVE_FLOAT128
+-- Performing Test HAVE_FLOAT128 - Success
+-- Performing Test HAVE_BUILTIN_CLZ
+-- Performing Test HAVE_BUILTIN_CLZ - Success
+-- Performing Test HAVE_GCC_VECTOR_EXTENSIONS
+-- Performing Test HAVE_GCC_VECTOR_EXTENSIONS - Success
+-- Using in-tree cairo
+-- Building cairo version 1.15.2
+-- Check size of void *
+-- Check size of void * - done
+-- Check size of int
+-- Check size of int - done
+-- Check size of long long
+-- Check size of long long - done
+-- Check size of size_t
+-- Check size of size_t - done
+-- Looking for inttypes.h
+-- Looking for inttypes.h - found
+-- Looking for sys/int_types.h
+-- Looking for sys/int_types.h - not found
+-- Check size of uint64_t
+-- Check size of uint64_t - done
+-- Check size of uint128_t
+-- Check size of uint128_t - failed
+-- Check size of __uint128_t
+-- Check size of __uint128_t - done
+-- Using in-tree ANGLE
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/tmp/solvespace/build
+
+C:\tmp\solvespace\build>mingw32-make
+[  0%] Building CXX object extlib/libdxfrw/CMakeFiles/dxfrw.dir/intern/drw_dbg.cpp.obj
+[  0%] Building CXX object extlib/libdxfrw/CMakeFiles/dxfrw.dir/intern/drw_textcodec.cpp.obj
+[  0%] Building CXX object extlib/libdxfrw/CMakeFiles/dxfrw.dir/intern/dwgbuffer.cpp.obj
+[  0%] Building CXX object extlib/libdxfrw/CMakeFiles/dxfrw.dir/intern/dwgreader15.cpp.obj
+[  0%] Building CXX object extlib/libdxfrw/CMakeFiles/dxfrw.dir/intern/dwgreader18.cpp.obj
+[  0%] Building CXX object extlib/libdxfrw/CMakeFiles/dxfrw.dir/intern/dwgreader21.cpp.obj
+[  1%] Building CXX object extlib/libdxfrw/CMakeFiles/dxfrw.dir/intern/dwgreader24.cpp.obj
+[  1%] Building CXX object extlib/libdxfrw/CMakeFiles/dxfrw.dir/intern/dwgreader27.cpp.obj
+[  1%] Building CXX object extlib/libdxfrw/CMakeFiles/dxfrw.dir/intern/dwgreader.cpp.obj
+[  1%] Building CXX object extlib/libdxfrw/CMakeFiles/dxfrw.dir/intern/dwgutil.cpp.obj
+[  1%] Building CXX object extlib/libdxfrw/CMakeFiles/dxfrw.dir/intern/dxfreader.cpp.obj
+[  1%] Building CXX object extlib/libdxfrw/CMakeFiles/dxfrw.dir/intern/dxfwriter.cpp.obj
+[  2%] Building CXX object extlib/libdxfrw/CMakeFiles/dxfrw.dir/intern/rscodec.cpp.obj
+[  2%] Building CXX object extlib/libdxfrw/CMakeFiles/dxfrw.dir/drw_header.cpp.obj
+[  2%] Building CXX object extlib/libdxfrw/CMakeFiles/dxfrw.dir/drw_classes.cpp.obj
+[  2%] Building CXX object extlib/libdxfrw/CMakeFiles/dxfrw.dir/drw_entities.cpp.obj
+[  2%] Building CXX object extlib/libdxfrw/CMakeFiles/dxfrw.dir/drw_objects.cpp.obj
+[  2%] Building CXX object extlib/libdxfrw/CMakeFiles/dxfrw.dir/libdxfrw.cpp.obj
+[  2%] Building CXX object extlib/libdxfrw/CMakeFiles/dxfrw.dir/libdwgr.cpp.obj
+[  3%] Linking CXX static library ..\..\bin\libdxfrw.a
+[  3%] Built target dxfrw
+[  4%] Building C object extlib/mimalloc/CMakeFiles/mimalloc-static.dir/src/stats.c.obj
+[  4%] Building C object extlib/mimalloc/CMakeFiles/mimalloc-static.dir/src/random.c.obj
+[  4%] Building C object extlib/mimalloc/CMakeFiles/mimalloc-static.dir/src/os.c.obj
+[  4%] Building C object extlib/mimalloc/CMakeFiles/mimalloc-static.dir/src/bitmap.c.obj
+[  4%] Building C object extlib/mimalloc/CMakeFiles/mimalloc-static.dir/src/arena.c.obj
+[  4%] Building C object extlib/mimalloc/CMakeFiles/mimalloc-static.dir/src/segment-cache.c.obj
+[  4%] Building C object extlib/mimalloc/CMakeFiles/mimalloc-static.dir/src/segment.c.obj
+[  5%] Building C object extlib/mimalloc/CMakeFiles/mimalloc-static.dir/src/page.c.obj
+[  5%] Building C object extlib/mimalloc/CMakeFiles/mimalloc-static.dir/src/alloc.c.obj
+[  5%] Building C object extlib/mimalloc/CMakeFiles/mimalloc-static.dir/src/alloc-aligned.c.obj
+[  5%] Building C object extlib/mimalloc/CMakeFiles/mimalloc-static.dir/src/alloc-posix.c.obj
+[  5%] Building C object extlib/mimalloc/CMakeFiles/mimalloc-static.dir/src/heap.c.obj
+[  5%] Building C object extlib/mimalloc/CMakeFiles/mimalloc-static.dir/src/options.c.obj
+[  5%] Building C object extlib/mimalloc/CMakeFiles/mimalloc-static.dir/src/init.c.obj
+[  6%] Linking C static library ..\..\bin\libmimalloc-static.a
+[  6%] Built target mimalloc-static
+[  6%] Building CXX object src/CMakeFiles/slvs.dir/util.cpp.obj
+[  6%] Building CXX object src/CMakeFiles/slvs.dir/entity.cpp.obj
+[  6%] Building CXX object src/CMakeFiles/slvs.dir/expr.cpp.obj
+[  6%] Building CXX object src/CMakeFiles/slvs.dir/constraint.cpp.obj
+[  6%] Building CXX object src/CMakeFiles/slvs.dir/constrainteq.cpp.obj
+[  6%] Building CXX object src/CMakeFiles/slvs.dir/system.cpp.obj
+[  7%] Building CXX object src/CMakeFiles/slvs.dir/platform/platform.cpp.obj
+[  7%] Building CXX object src/CMakeFiles/slvs.dir/lib.cpp.obj
+[  7%] Linking CXX shared library ..\bin\libslvs.dll
+[  7%] Built target slvs
+[  7%] Built target genfiles
+[  7%] Building C object extlib/zlib/CMakeFiles/zlibstatic.dir/adler32.obj
+[  7%] Building C object extlib/zlib/CMakeFiles/zlibstatic.dir/compress.obj
+[  8%] Building C object extlib/zlib/CMakeFiles/zlibstatic.dir/crc32.obj
+[  8%] Building C object extlib/zlib/CMakeFiles/zlibstatic.dir/deflate.obj
+[  8%] Building C object extlib/zlib/CMakeFiles/zlibstatic.dir/gzclose.obj
+[  8%] Building C object extlib/zlib/CMakeFiles/zlibstatic.dir/gzlib.obj
+[  8%] Building C object extlib/zlib/CMakeFiles/zlibstatic.dir/gzread.obj
+[  8%] Building C object extlib/zlib/CMakeFiles/zlibstatic.dir/gzwrite.obj
+[  8%] Building C object extlib/zlib/CMakeFiles/zlibstatic.dir/inflate.obj
+[  9%] Building C object extlib/zlib/CMakeFiles/zlibstatic.dir/infback.obj
+[  9%] Building C object extlib/zlib/CMakeFiles/zlibstatic.dir/inftrees.obj
+[  9%] Building C object extlib/zlib/CMakeFiles/zlibstatic.dir/inffast.obj
+[  9%] Building C object extlib/zlib/CMakeFiles/zlibstatic.dir/trees.obj
+[  9%] Building C object extlib/zlib/CMakeFiles/zlibstatic.dir/uncompr.obj
+[  9%] Building C object extlib/zlib/CMakeFiles/zlibstatic.dir/zutil.obj
+[ 10%] Linking C static library ..\..\bin\libzlibstatic.a
+[ 10%] Built target zlibstatic
+[ 10%] Building C object extlib/libpng/CMakeFiles/png_static.dir/png.c.obj
+[ 10%] Building C object extlib/libpng/CMakeFiles/png_static.dir/pngerror.c.obj
+[ 11%] Building C object extlib/libpng/CMakeFiles/png_static.dir/pngget.c.obj
+[ 11%] Building C object extlib/libpng/CMakeFiles/png_static.dir/pngmem.c.obj
+[ 11%] Building C object extlib/libpng/CMakeFiles/png_static.dir/pngpread.c.obj
+[ 11%] Building C object extlib/libpng/CMakeFiles/png_static.dir/pngread.c.obj
+[ 11%] Building C object extlib/libpng/CMakeFiles/png_static.dir/pngrio.c.obj
+[ 11%] Building C object extlib/libpng/CMakeFiles/png_static.dir/pngrtran.c.obj
+[ 12%] Building C object extlib/libpng/CMakeFiles/png_static.dir/pngrutil.c.obj
+[ 12%] Building C object extlib/libpng/CMakeFiles/png_static.dir/pngset.c.obj
+[ 12%] Building C object extlib/libpng/CMakeFiles/png_static.dir/pngtrans.c.obj
+[ 12%] Building C object extlib/libpng/CMakeFiles/png_static.dir/pngwio.c.obj
+[ 12%] Building C object extlib/libpng/CMakeFiles/png_static.dir/pngwrite.c.obj
+[ 12%] Building C object extlib/libpng/CMakeFiles/png_static.dir/pngwtran.c.obj
+[ 12%] Building C object extlib/libpng/CMakeFiles/png_static.dir/pngwutil.c.obj
+[ 13%] Linking C static library ..\..\bin\libpng16.a
+[ 13%] Built target png_static
+[ 13%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/autofit/autofit.c.obj
+[ 13%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/base/ftbase.c.obj
+[ 14%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/base/ftbbox.c.obj
+[ 14%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/base/ftbdf.c.obj
+[ 14%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/base/ftbitmap.c.obj
+[ 14%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/base/ftcid.c.obj
+[ 14%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/base/ftfntfmt.c.obj
+[ 14%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/base/ftfstype.c.obj
+[ 14%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/base/ftgasp.c.obj
+[ 15%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/base/ftglyph.c.obj
+[ 15%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/base/ftgxval.c.obj
+[ 15%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/base/ftinit.c.obj
+[ 15%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/base/ftlcdfil.c.obj
+[ 15%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/base/ftmm.c.obj
+[ 15%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/base/ftotval.c.obj
+[ 15%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/base/ftpatent.c.obj
+[ 16%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/base/ftpfr.c.obj
+[ 16%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/base/ftstroke.c.obj
+[ 16%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/base/ftsynth.c.obj
+[ 16%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/base/ftsystem.c.obj
+[ 16%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/base/fttype1.c.obj
+[ 16%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/base/ftwinfnt.c.obj
+[ 16%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/bdf/bdf.c.obj
+[ 17%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/bzip2/ftbzip2.c.obj
+[ 17%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/cache/ftcache.c.obj
+[ 17%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/cff/cff.c.obj
+[ 17%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/cid/type1cid.c.obj
+[ 17%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/gzip/ftgzip.c.obj
+[ 17%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/lzw/ftlzw.c.obj
+[ 18%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/pcf/pcf.c.obj
+[ 18%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/pfr/pfr.c.obj
+[ 18%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/psaux/psaux.c.obj
+[ 18%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/pshinter/pshinter.c.obj
+[ 18%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/psnames/psnames.c.obj
+[ 18%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/raster/raster.c.obj
+[ 18%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/sfnt/sfnt.c.obj
+[ 19%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/smooth/smooth.c.obj
+[ 19%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/truetype/truetype.c.obj
+[ 19%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/type1/type1.c.obj
+[ 19%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/type42/type42.c.obj
+[ 19%] Building C object extlib/freetype/CMakeFiles/freetype.dir/src/winfonts/winfnt.c.obj
+[ 19%] Building C object extlib/freetype/CMakeFiles/freetype.dir/builds/windows/ftdebug.c.obj
+[ 19%] Linking C static library ..\..\bin\libfreetype.a
+[ 19%] Built target freetype
+[ 19%] Building CXX object src/CMakeFiles/solvespace-core.dir/bsp.cpp.obj
+[ 19%] Building CXX object src/CMakeFiles/solvespace-core.dir/clipboard.cpp.obj
+[ 19%] Building CXX object src/CMakeFiles/solvespace-core.dir/confscreen.cpp.obj
+[ 19%] Building CXX object src/CMakeFiles/solvespace-core.dir/constraint.cpp.obj
+[ 20%] Building CXX object src/CMakeFiles/solvespace-core.dir/constrainteq.cpp.obj
+[ 20%] Building CXX object src/CMakeFiles/solvespace-core.dir/describescreen.cpp.obj
+[ 20%] Building CXX object src/CMakeFiles/solvespace-core.dir/draw.cpp.obj
+[ 20%] Building CXX object src/CMakeFiles/solvespace-core.dir/drawconstraint.cpp.obj
+[ 20%] Building CXX object src/CMakeFiles/solvespace-core.dir/drawentity.cpp.obj
+[ 20%] Building CXX object src/CMakeFiles/solvespace-core.dir/entity.cpp.obj
+[ 20%] Building CXX object src/CMakeFiles/solvespace-core.dir/export.cpp.obj
+[ 21%] Building CXX object src/CMakeFiles/solvespace-core.dir/exportstep.cpp.obj
+[ 21%] Building CXX object src/CMakeFiles/solvespace-core.dir/exportvector.cpp.obj
+C:\tmp\solvespace\src\exportvector.cpp: In lambda function:
+C:\tmp\solvespace\src\exportvector.cpp:130:25: warning: implicitly-declared 'DRW_Polyline& DRW_Polyline::operator=(const DRW_Polyline&)' is deprecated [-Wdeprecated-copy]
+  130 |             polyline = {};
+      |                         ^
+In file included from C:/tmp/solvespace/extlib/libdxfrw/libdxfrw.h:17,
+                 from C:\tmp\solvespace\src\exportvector.cpp:6:
+C:/tmp/solvespace/extlib/libdxfrw/drw_entities.h:819:5: note: because 'DRW_Polyline' has user-provided 'DRW_Polyline::DRW_Polyline(const DRW_Polyline&)'
+  819 |     DRW_Polyline(const DRW_Polyline& p) : DRW_Point(p) {
+      |     ^~~~~~~~~~~~
+C:/tmp/solvespace/extlib/libdxfrw/drw_entities.h: In member function 'DRW_Point& DRW_Point::operator=(const DRW_Point&)':
+C:/tmp/solvespace/extlib/libdxfrw/drw_entities.h:247:7: warning: implicitly-declared 'DRW_Entity& DRW_Entity::operator=(const DRW_Entity&)' is deprecated [-Wdeprecated-copy]
+  247 | class DRW_Point : public DRW_Entity {
+      |       ^~~~~~~~~
+C:/tmp/solvespace/extlib/libdxfrw/drw_entities.h:125:5: note: because 'DRW_Entity' has user-provided 'DRW_Entity::DRW_Entity(const DRW_Entity&)'
+  125 |     DRW_Entity(const DRW_Entity& e) {
+      |     ^~~~~~~~~~
+C:/tmp/solvespace/extlib/libdxfrw/drw_entities.h: In member function 'DRW_Polyline& DRW_Polyline::operator=(const DRW_Polyline&)':
+C:/tmp/solvespace/extlib/libdxfrw/drw_entities.h:808:7: note: synthesized method 'DRW_Point& DRW_Point::operator=(const DRW_Point&)' first required here
+  808 | class DRW_Polyline : public DRW_Point {
+      |       ^~~~~~~~~~~~
+C:\tmp\solvespace\src\exportvector.cpp: In lambda function:
+C:\tmp\solvespace\src\exportvector.cpp:130:25: note: synthesized method 'DRW_Polyline& DRW_Polyline::operator=(const DRW_Polyline&)' first required here
+  130 |             polyline = {};
+      |                         ^
+[ 21%] Building CXX object src/CMakeFiles/solvespace-core.dir/expr.cpp.obj
+[ 21%] Building CXX object src/CMakeFiles/solvespace-core.dir/file.cpp.obj
+[ 21%] Building CXX object src/CMakeFiles/solvespace-core.dir/generate.cpp.obj
+[ 21%] Building CXX object src/CMakeFiles/solvespace-core.dir/graphicswin.cpp.obj
+[ 21%] Building CXX object src/CMakeFiles/solvespace-core.dir/group.cpp.obj
+[ 22%] Building CXX object src/CMakeFiles/solvespace-core.dir/groupmesh.cpp.obj
+C:\tmp\solvespace\src\groupmesh.cpp:120: warning: ignoring '#pragma omp parallel' [-Wunknown-pragmas]
+  120 | #pragma omp parallel for
+      |
+[ 22%] Building CXX object src/CMakeFiles/solvespace-core.dir/importdxf.cpp.obj
+In file included from C:/tmp/solvespace/extlib/libdxfrw/libdxfrw.h:17,
+                 from C:\tmp\solvespace\src\importdxf.cpp:2:
+C:/tmp/solvespace/extlib/libdxfrw/drw_entities.h: In member function 'DRW_Point& DRW_Point::operator=(const DRW_Point&)':
+C:/tmp/solvespace/extlib/libdxfrw/drw_entities.h:247:7: warning: implicitly-declared 'DRW_Entity& DRW_Entity::operator=(const DRW_Entity&)' is deprecated [-Wdeprecated-copy]
+  247 | class DRW_Point : public DRW_Entity {
+      |       ^~~~~~~~~
+C:/tmp/solvespace/extlib/libdxfrw/drw_entities.h:125:5: note: because 'DRW_Entity' has user-provided 'DRW_Entity::DRW_Entity(const DRW_Entity&)'
+  125 |     DRW_Entity(const DRW_Entity& e) {
+      |     ^~~~~~~~~~
+C:/tmp/solvespace/extlib/libdxfrw/drw_entities.h: In member function 'DRW_Block& DRW_Block::operator=(const DRW_Block&)':
+C:/tmp/solvespace/extlib/libdxfrw/drw_entities.h:529:7: note: synthesized method 'DRW_Point& DRW_Point::operator=(const DRW_Point&)' first required here
+  529 | class DRW_Block : public DRW_Point {
+      |       ^~~~~~~~~
+C:\tmp\solvespace\src\importdxf.cpp: In member function 'virtual void SolveSpace::DxfImport::addBlock(const DRW_Block&)':
+C:\tmp\solvespace\src\importdxf.cpp:579:27: note: synthesized method 'DRW_Block& DRW_Block::operator=(const DRW_Block&)' first required here
+  579 |         readBlock->data = data;
+      |                           ^~~~
+[ 22%] Building CXX object src/CMakeFiles/solvespace-core.dir/importidf.cpp.obj
+C:\tmp\solvespace\src\importidf.cpp: In function 'bool SolveSpace::LinkIDF(const SolveSpace::Platform::Path&, SolveSpace::EntityList*, SolveSpace::SMesh*, SolveSpace::SShell*)':
+C:\tmp\solvespace\src\importidf.cpp:408:25: warning: 'bottomEntities' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  408 |                         if (bottomEntities)
+      |                         ^~
+C:\tmp\solvespace\src\importidf.cpp:410:25: warning: 'topEntities' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  410 |                         if (topEntities)
+      |                         ^~
+[ 22%] Building CXX object src/CMakeFiles/solvespace-core.dir/importmesh.cpp.obj
+[ 22%] Building CXX object src/CMakeFiles/solvespace-core.dir/mesh.cpp.obj
+[ 22%] Building CXX object src/CMakeFiles/solvespace-core.dir/modify.cpp.obj
+[ 22%] Building CXX object src/CMakeFiles/solvespace-core.dir/mouse.cpp.obj
+[ 23%] Building CXX object src/CMakeFiles/solvespace-core.dir/polyline.cpp.obj
+[ 23%] Building CXX object src/CMakeFiles/solvespace-core.dir/polygon.cpp.obj
+[ 23%] Building CXX object src/CMakeFiles/solvespace-core.dir/resource.cpp.obj
+C:\tmp\solvespace\src\resource.cpp: In member function 'bool SolveSpace::Pixmap::WritePng(FILE*, bool)':
+C:\tmp\solvespace\src\resource.cpp:275:9: warning: variable 'colorType' might be clobbered by 'longjmp' or 'vfork' [-Wclobbered]
+  275 |     int colorType = 0;
+      |         ^~~~~~~~~
+C:\tmp\solvespace\src\resource.cpp:276:10: warning: variable 'bgr' might be clobbered by 'longjmp' or 'vfork' [-Wclobbered]
+  276 |     bool bgr = false;
+      |          ^~~
+[ 23%] Building CXX object src/CMakeFiles/solvespace-core.dir/request.cpp.obj
+[ 23%] Building CXX object src/CMakeFiles/solvespace-core.dir/style.cpp.obj
+[ 23%] Building CXX object src/CMakeFiles/solvespace-core.dir/system.cpp.obj
+[ 23%] Building CXX object src/CMakeFiles/solvespace-core.dir/textscreens.cpp.obj
+[ 25%] Building CXX object src/CMakeFiles/solvespace-core.dir/textwin.cpp.obj
+C:\tmp\solvespace\src\textwin.cpp: In member function 'void SolveSpace::TextWindow::ClearSuper()':
+C:\tmp\solvespace\src\textwin.cpp:289:34: warning: 'void* memset(void*, int, size_t)' clearing an object of type 'class SolveSpace::TextWindow' with no trivial copy-assignment; use assignment or value-initialization instead [-Wclass-memaccess]
+  289 |     memset(this, 0, sizeof(*this));
+      |                                  ^
+In file included from C:\tmp\solvespace\src\solvespace.h:172,
+                 from C:\tmp\solvespace\src\textwin.cpp:6:
+C:\tmp\solvespace\src\ui.h:180:7: note: 'class SolveSpace::TextWindow' declared here
+  180 | class TextWindow {
+      |       ^~~~~~~~~~
+C:\tmp\solvespace\src\textwin.cpp: In member function 'void SolveSpace::TextWindow::DrawOrHitTestIcons(SolveSpace::UiCanvas*, SolveSpace::TextWindow::DrawOrHitHow, double, double)':
+C:\tmp\solvespace\src\textwin.cpp:648:31: warning: 'hoveredY' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  648 |             window->SetTooltip(hoveredButton->Tooltip(), hoveredX, hoveredY, 28, 28);
+      |             ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\tmp\solvespace\src\textwin.cpp:648:31: warning: 'hoveredX' may be used uninitialized in this function [-Wmaybe-uninitialized]
+[ 25%] Building CXX object src/CMakeFiles/solvespace-core.dir/toolbar.cpp.obj
+[ 25%] Building CXX object src/CMakeFiles/solvespace-core.dir/ttf.cpp.obj
+[ 25%] Building CXX object src/CMakeFiles/solvespace-core.dir/undoredo.cpp.obj
+[ 25%] Building CXX object src/CMakeFiles/solvespace-core.dir/util.cpp.obj
+[ 25%] Building CXX object src/CMakeFiles/solvespace-core.dir/view.cpp.obj
+[ 25%] Building CXX object src/CMakeFiles/solvespace-core.dir/platform/platform.cpp.obj
+[ 26%] Building CXX object src/CMakeFiles/solvespace-core.dir/platform/gui.cpp.obj
+[ 26%] Building CXX object src/CMakeFiles/solvespace-core.dir/render/render.cpp.obj
+[ 26%] Building CXX object src/CMakeFiles/solvespace-core.dir/render/render2d.cpp.obj
+[ 26%] Building CXX object src/CMakeFiles/solvespace-core.dir/srf/boolean.cpp.obj
+C:\tmp\solvespace\src\srf\boolean.cpp:204: warning: ignoring '#pragma omp parallel' [-Wunknown-pragmas]
+  204 | #pragma omp parallel for
+      |
+C:\tmp\solvespace\src\srf\boolean.cpp:211: warning: ignoring '#pragma omp critical' [-Wunknown-pragmas]
+  211 | #pragma omp critical
+      |
+C:\tmp\solvespace\src\srf\boolean.cpp:677: warning: ignoring '#pragma omp critical' [-Wunknown-pragmas]
+  677 | #pragma omp critical
+      |
+C:\tmp\solvespace\src\srf\boolean.cpp:694: warning: ignoring '#pragma omp parallel' [-Wunknown-pragmas]
+  694 | #pragma omp parallel for
+      |
+C:\tmp\solvespace\src\srf\boolean.cpp:709: warning: ignoring '#pragma omp parallel' [-Wunknown-pragmas]
+  709 | #pragma omp parallel for
+      |
+C:\tmp\solvespace\src\srf\boolean.cpp:846: warning: ignoring '#pragma omp parallel' [-Wunknown-pragmas]
+  846 | #pragma omp parallel for
+      |
+[ 26%] Building CXX object src/CMakeFiles/solvespace-core.dir/srf/curve.cpp.obj
+[ 26%] Building CXX object src/CMakeFiles/solvespace-core.dir/srf/merge.cpp.obj
+[ 27%] Building CXX object src/CMakeFiles/solvespace-core.dir/srf/ratpoly.cpp.obj
+[ 27%] Building CXX object src/CMakeFiles/solvespace-core.dir/srf/raycast.cpp.obj
+[ 27%] Building CXX object src/CMakeFiles/solvespace-core.dir/srf/surface.cpp.obj
+C:\tmp\solvespace\src\srf\surface.cpp:1071: warning: ignoring '#pragma omp parallel' [-Wunknown-pragmas]
+ 1071 | #pragma omp parallel for
+      |
+C:\tmp\solvespace\src\srf\surface.cpp:1076: warning: ignoring '#pragma omp critical' [-Wunknown-pragmas]
+ 1076 |         #pragma omp critical
+      |
+[ 27%] Building CXX object src/CMakeFiles/solvespace-core.dir/srf/surfinter.cpp.obj
+C:\tmp\solvespace\src\srf\surfinter.cpp:30: warning: ignoring '#pragma omp critical' [-Wunknown-pragmas]
+   30 | #pragma omp critical(into)
+      |
+C:\tmp\solvespace\src\srf\surfinter.cpp:107: warning: ignoring '#pragma omp critical' [-Wunknown-pragmas]
+  107 | #pragma omp critical(into)
+      |
+C:\tmp\solvespace\src\srf\surfinter.cpp:503: warning: ignoring '#pragma omp critical' [-Wunknown-pragmas]
+  503 | #pragma omp critical(into)
+      |
+[ 27%] Building CXX object src/CMakeFiles/solvespace-core.dir/srf/triangulate.cpp.obj
+[ 27%] Linking CXX static library ..\bin\libsolvespace-core.a
+[ 27%] Built target solvespace-core
+[ 27%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman.c.obj
+[ 28%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman-access.c.obj
+[ 28%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman-access-accessors.c.obj
+[ 28%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman-bits-image.c.obj
+[ 28%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman-combine32.c.obj
+[ 28%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman-combine-float.c.obj
+[ 28%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman-conical-gradient.c.obj
+[ 28%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman-filter.c.obj
+[ 29%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman-x86.c.obj
+[ 29%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman-mips.c.obj
+[ 29%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman-arm.c.obj
+[ 29%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman-ppc.c.obj
+[ 29%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman-edge.c.obj
+[ 29%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman-edge-accessors.c.obj
+[ 29%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman-fast-path.c.obj
+[ 30%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman-glyph.c.obj
+[ 30%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman-general.c.obj
+[ 30%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman-gradient-walker.c.obj
+[ 30%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman-image.c.obj
+[ 30%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman-implementation.c.obj
+[ 30%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman-linear-gradient.c.obj
+[ 30%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman-matrix.c.obj
+[ 31%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman-noop.c.obj
+[ 31%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman-radial-gradient.c.obj
+[ 31%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman-region16.c.obj
+[ 31%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman-region32.c.obj
+[ 31%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman-solid-fill.c.obj
+[ 31%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman-timer.c.obj
+[ 31%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman-trap.c.obj
+[ 32%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman-utils.c.obj
+[ 32%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman-mmx.c.obj
+[ 32%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman-sse2.c.obj
+[ 32%] Building C object extlib/pixman/pixman/CMakeFiles/pixman.dir/pixman-ssse3.c.obj
+[ 32%] Linking C static library ..\..\..\bin\libpixman-1.a
+[ 32%] Built target pixman
+[ 32%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-analysis-surface.c.obj
+[ 32%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-arc.c.obj
+[ 33%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-array.c.obj
+[ 33%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-atomic.c.obj
+[ 33%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-base64-stream.c.obj
+[ 33%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-base85-stream.c.obj
+[ 33%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-bentley-ottmann.c.obj
+[ 33%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-bentley-ottmann-rectangular.c.obj
+[ 33%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-bentley-ottmann-rectilinear.c.obj
+[ 34%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-botor-scan-converter.c.obj
+[ 34%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-boxes.c.obj
+[ 34%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-boxes-intersect.c.obj
+[ 34%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo.c.obj
+[ 34%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-cache.c.obj
+[ 34%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-clip.c.obj
+[ 34%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-clip-boxes.c.obj
+[ 35%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-clip-polygon.c.obj
+[ 35%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-clip-region.c.obj
+[ 35%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-clip-surface.c.obj
+[ 35%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-color.c.obj
+[ 35%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-composite-rectangles.c.obj
+[ 35%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-compositor.c.obj
+[ 35%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-contour.c.obj
+[ 36%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-damage.c.obj
+[ 36%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-debug.c.obj
+[ 36%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-default-context.c.obj
+[ 36%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-device.c.obj
+[ 36%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-error.c.obj
+[ 36%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-fallback-compositor.c.obj
+[ 36%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-fixed.c.obj
+[ 37%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-font-face.c.obj
+[ 37%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-font-face-twin.c.obj
+[ 37%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-font-face-twin-data.c.obj
+[ 37%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-font-options.c.obj
+[ 37%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-freelist.c.obj
+[ 37%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-freed-pool.c.obj
+[ 37%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-gstate.c.obj
+[ 38%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-hash.c.obj
+[ 38%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-hull.c.obj
+[ 38%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-image-compositor.c.obj
+[ 38%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-image-info.c.obj
+[ 38%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-image-source.c.obj
+[ 38%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-image-surface.c.obj
+[ 39%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-line.c.obj
+[ 39%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-lzw.c.obj
+[ 39%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-matrix.c.obj
+[ 39%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-mask-compositor.c.obj
+[ 39%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-mesh-pattern-rasterizer.c.obj
+[ 39%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-mempool.c.obj
+[ 39%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-misc.c.obj
+[ 40%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-mono-scan-converter.c.obj
+[ 40%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-mutex.c.obj
+[ 40%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-no-compositor.c.obj
+[ 40%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-observer.c.obj
+[ 40%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-output-stream.c.obj
+[ 40%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-paginated-surface.c.obj
+[ 40%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-path-bounds.c.obj
+[ 41%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-path.c.obj
+[ 41%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-path-fill.c.obj
+[ 41%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-path-fixed.c.obj
+[ 41%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-path-in-fill.c.obj
+[ 41%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-path-stroke.c.obj
+[ 41%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-path-stroke-boxes.c.obj
+[ 41%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-path-stroke-polygon.c.obj
+[ 42%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-path-stroke-traps.c.obj
+[ 42%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-path-stroke-tristrip.c.obj
+[ 42%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-pattern.c.obj
+[ 42%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-pen.c.obj
+[ 42%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-polygon.c.obj
+[ 42%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-polygon-intersect.c.obj
+[ 42%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-polygon-reduce.c.obj
+[ 43%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-raster-source-pattern.c.obj
+[ 43%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-recording-surface.c.obj
+[ 43%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-rectangle.c.obj
+[ 43%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-rectangular-scan-converter.c.obj
+[ 43%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-region.c.obj
+[ 43%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-rtree.c.obj
+[ 44%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-scaled-font.c.obj
+[ 44%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-shape-mask-compositor.c.obj
+[ 44%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-slope.c.obj
+[ 44%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-spans.c.obj
+[ 44%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-spans-compositor.c.obj
+[ 44%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-spline.c.obj
+[ 44%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-stroke-dash.c.obj
+[ 45%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-stroke-style.c.obj
+[ 45%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-surface.c.obj
+[ 45%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-surface-clipper.c.obj
+[ 45%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-surface-fallback.c.obj
+[ 45%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-surface-observer.c.obj
+[ 45%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-surface-offset.c.obj
+[ 45%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-surface-snapshot.c.obj
+[ 46%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-surface-subsurface.c.obj
+[ 46%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-surface-wrapper.c.obj
+[ 46%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-time.c.obj
+[ 46%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-tor-scan-converter.c.obj
+[ 46%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-tor22-scan-converter.c.obj
+[ 46%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-clip-tor-scan-converter.c.obj
+[ 46%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-toy-font-face.c.obj
+[ 47%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-traps.c.obj
+[ 47%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-tristrip.c.obj
+[ 47%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-traps-compositor.c.obj
+[ 47%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-unicode.c.obj
+[ 47%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-user-font.c.obj
+[ 47%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-version.c.obj
+[ 47%] Building C object extlib/cairo/src/CMakeFiles/cairo.dir/cairo-wideint.c.obj
+[ 48%] Linking C static library ..\..\..\bin\libcairo.a
+[ 48%] Built target cairo
+[ 48%] Building CXX object src/CMakeFiles/solvespace-headless.dir/solvespace.cpp.obj
+[ 48%] Building CXX object src/CMakeFiles/solvespace-headless.dir/platform/guinone.cpp.obj
+[ 48%] Building CXX object src/CMakeFiles/solvespace-headless.dir/render/rendercairo.cpp.obj
+[ 48%] Linking CXX static library ..\bin\libsolvespace-headless.a
+[ 48%] Built target solvespace-headless
+[ 48%] Built target resources
+Scanning dependencies of target solvespace-cli
+[ 48%] Building CXX object src/CMakeFiles/solvespace-cli.dir/platform/entrycli.cpp.obj
+[ 50%] Building RC object src/CMakeFiles/solvespace-cli.dir/__/res/resources.rc.obj
+[ 50%] Linking CXX executable ..\bin\solvespace-cli.exe
+[ 50%] Built target solvespace-cli
+[ 51%] Building CXX object extlib/angle/CMakeFiles/angle_common.dir/src/common/Float16ToFloat32.cpp.obj
+[ 51%] Building CXX object extlib/angle/CMakeFiles/angle_common.dir/src/common/MemoryBuffer.cpp.obj
+[ 51%] Building CXX object extlib/angle/CMakeFiles/angle_common.dir/src/common/angleutils.cpp.obj
+[ 51%] Building CXX object extlib/angle/CMakeFiles/angle_common.dir/src/common/debug.cpp.obj
+[ 51%] Building CXX object extlib/angle/CMakeFiles/angle_common.dir/src/common/mathutil.cpp.obj
+[ 51%] Building CXX object extlib/angle/CMakeFiles/angle_common.dir/src/common/string_utils.cpp.obj
+[ 51%] Building CXX object extlib/angle/CMakeFiles/angle_common.dir/src/common/tls.cpp.obj
+[ 52%] Building CXX object extlib/angle/CMakeFiles/angle_common.dir/src/common/utilities.cpp.obj
+[ 52%] Linking CXX static library ..\..\bin\libangle_common.a
+[ 52%] Built target angle_common
+[ 52%] Building CXX object extlib/angle/CMakeFiles/angle_preprocessor.dir/src/compiler/preprocessor/DiagnosticsBase.cpp.obj
+[ 52%] Building CXX object extlib/angle/CMakeFiles/angle_preprocessor.dir/src/compiler/preprocessor/DirectiveHandlerBase.cpp.obj
+[ 52%] Building CXX object extlib/angle/CMakeFiles/angle_preprocessor.dir/src/compiler/preprocessor/DirectiveParser.cpp.obj
+[ 52%] Building CXX object extlib/angle/CMakeFiles/angle_preprocessor.dir/src/compiler/preprocessor/ExpressionParser.cpp.obj
+[ 52%] Building CXX object extlib/angle/CMakeFiles/angle_preprocessor.dir/src/compiler/preprocessor/Input.cpp.obj
+[ 53%] Building CXX object extlib/angle/CMakeFiles/angle_preprocessor.dir/src/compiler/preprocessor/Lexer.cpp.obj
+[ 53%] Building CXX object extlib/angle/CMakeFiles/angle_preprocessor.dir/src/compiler/preprocessor/Macro.cpp.obj
+[ 53%] Building CXX object extlib/angle/CMakeFiles/angle_preprocessor.dir/src/compiler/preprocessor/MacroExpander.cpp.obj
+[ 53%] Building CXX object extlib/angle/CMakeFiles/angle_preprocessor.dir/src/compiler/preprocessor/Preprocessor.cpp.obj
+[ 53%] Building CXX object extlib/angle/CMakeFiles/angle_preprocessor.dir/src/compiler/preprocessor/Token.cpp.obj
+[ 53%] Building CXX object extlib/angle/CMakeFiles/angle_preprocessor.dir/src/compiler/preprocessor/Tokenizer.cpp.obj
+[ 53%] Linking CXX static library ..\..\bin\libangle_preprocessor.a
+[ 53%] Built target angle_preprocessor
+[ 53%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/BuiltInFunctionEmulator.cpp.obj
+[ 53%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/Cache.cpp.obj
+[ 53%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/CallDAG.cpp.obj
+[ 54%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/CodeGen.cpp.obj
+[ 54%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/Compiler.cpp.obj
+[ 54%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/Diagnostics.cpp.obj
+[ 54%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/DirectiveHandler.cpp.obj
+[ 54%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/EmulatePrecision.cpp.obj
+[ 54%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/FlagStd140Structs.cpp.obj
+[ 54%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/ForLoopUnroll.cpp.obj
+[ 55%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/InfoSink.cpp.obj
+[ 55%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/Initialize.cpp.obj
+[ 55%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/InitializeDll.cpp.obj
+[ 55%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/InitializeParseContext.cpp.obj
+[ 55%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/InitializeVariables.cpp.obj
+[ 55%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/IntermNode.cpp.obj
+[ 55%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/IntermTraverse.cpp.obj
+[ 56%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/Intermediate.cpp.obj
+[ 56%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/LoopInfo.cpp.obj
+[ 56%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/Operator.cpp.obj
+[ 56%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/ParseContext.cpp.obj
+[ 56%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/PoolAlloc.cpp.obj
+[ 56%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/PruneEmptyDeclarations.cpp.obj
+[ 56%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/RecordConstantPrecision.cpp.obj
+[ 57%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/RegenerateStructNames.cpp.obj
+[ 57%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/RemovePow.cpp.obj
+[ 57%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/RewriteDoWhile.cpp.obj
+[ 57%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/ScalarizeVecAndMatConstructorArgs.cpp.obj
+[ 57%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/SearchSymbol.cpp.obj
+[ 57%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/SymbolTable.cpp.obj
+[ 57%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/Types.cpp.obj
+[ 58%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/UnfoldShortCircuitAST.cpp.obj
+[ 58%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/ValidateGlobalInitializer.cpp.obj
+[ 58%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/ValidateLimitations.cpp.obj
+[ 58%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/ValidateMaxParameters.cpp.obj
+[ 58%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/ValidateOutputs.cpp.obj
+[ 58%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/ValidateSwitch.cpp.obj
+[ 58%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/VariableInfo.cpp.obj
+[ 59%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/VariablePacker.cpp.obj
+[ 59%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/blocklayout.cpp.obj
+[ 59%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/depgraph/DependencyGraph.cpp.obj
+[ 59%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/depgraph/DependencyGraphBuilder.cpp.obj
+[ 59%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/depgraph/DependencyGraphOutput.cpp.obj
+[ 59%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/depgraph/DependencyGraphTraverse.cpp.obj
+[ 60%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/glslang_lex.cpp.obj
+[ 60%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/glslang_tab.cpp.obj
+[ 60%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/intermOut.cpp.obj
+[ 60%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/timing/RestrictFragmentShaderTiming.cpp.obj
+[ 60%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/timing/RestrictVertexShaderTiming.cpp.obj
+[ 60%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/util.cpp.obj
+[ 60%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/third_party/compiler/ArrayBoundsClamper.cpp.obj
+[ 61%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/OutputESSL.cpp.obj
+[ 61%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/TranslatorESSL.cpp.obj
+[ 61%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/BuiltInFunctionEmulatorGLSL.cpp.obj
+[ 61%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/ExtensionGLSL.cpp.obj
+[ 61%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/OutputGLSL.cpp.obj
+[ 61%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/OutputGLSLBase.cpp.obj
+[ 61%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/TranslatorGLSL.cpp.obj
+[ 62%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/VersionGLSL.cpp.obj
+[ 62%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/ArrayReturnValueToOutParameter.cpp.obj
+[ 62%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/ASTMetadataHLSL.cpp.obj
+[ 62%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/blocklayoutHLSL.cpp.obj
+[ 62%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/BuiltInFunctionEmulatorHLSL.cpp.obj
+[ 62%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/OutputHLSL.cpp.obj
+[ 62%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/RemoveDynamicIndexing.cpp.obj
+[ 63%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/RemoveSwitchFallThrough.cpp.obj
+[ 63%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/RewriteElseBlocks.cpp.obj
+[ 63%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/SeparateArrayInitialization.cpp.obj
+[ 63%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/SeparateDeclarations.cpp.obj
+[ 63%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/SeparateExpressionsReturningArrays.cpp.obj
+[ 63%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/StructureHLSL.cpp.obj
+[ 63%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/TranslatorHLSL.cpp.obj
+[ 64%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/UnfoldShortCircuitToIf.cpp.obj
+[ 64%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/UniformHLSL.cpp.obj
+[ 64%] Building CXX object extlib/angle/CMakeFiles/angle_translator_lib.dir/src/compiler/translator/UtilsHLSL.cpp.obj
+[ 64%] Linking CXX static library ..\..\bin\libangle_translator_lib.a
+[ 64%] Built target angle_translator_lib
+[ 65%] Building CXX object extlib/angle/CMakeFiles/angle_translator.dir/src/compiler/translator/ShaderLang.cpp.obj
+[ 65%] Building CXX object extlib/angle/CMakeFiles/angle_translator.dir/src/compiler/translator/ShaderVars.cpp.obj
+[ 65%] Linking CXX static library ..\..\bin\libangle_translator.a
+[ 65%] Built target angle_translator
+[ 65%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/common/event_tracer.cpp.obj
+[ 65%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/AttributeMap.cpp.obj
+[ 65%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/Buffer.cpp.obj
+[ 65%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/Caps.cpp.obj
+[ 65%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/Compiler.cpp.obj
+[ 65%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/Config.cpp.obj
+[ 66%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/Context.cpp.obj
+[ 66%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/Data.cpp.obj
+[ 66%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/Debug.cpp.obj
+[ 66%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/Device.cpp.obj
+[ 66%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/Display.cpp.obj
+[ 66%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/Error.cpp.obj
+[ 66%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/Fence.cpp.obj
+[ 67%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/Framebuffer.cpp.obj
+[ 67%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/FramebufferAttachment.cpp.obj
+[ 67%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/HandleAllocator.cpp.obj
+[ 67%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/Image.cpp.obj
+[ 67%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/ImageIndex.cpp.obj
+[ 67%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/IndexRangeCache.cpp.obj
+[ 67%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/Platform.cpp.obj
+[ 68%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/Program.cpp.obj
+[ 68%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/Query.cpp.obj
+[ 68%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/Renderbuffer.cpp.obj
+[ 68%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/ResourceManager.cpp.obj
+[ 68%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/Sampler.cpp.obj
+[ 68%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/Shader.cpp.obj
+[ 68%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/State.cpp.obj
+[ 69%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/Stream.cpp.obj
+[ 69%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/Surface.cpp.obj
+[ 69%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/Texture.cpp.obj
+[ 69%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/TransformFeedback.cpp.obj
+[ 69%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/Uniform.cpp.obj
+[ 69%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/VertexArray.cpp.obj
+[ 69%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/VertexAttribute.cpp.obj
+[ 70%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/angletypes.cpp.obj
+[ 70%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/formatutils.cpp.obj
+[ 70%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/queryconversions.cpp.obj
+[ 70%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/DeviceImpl.cpp.obj
+[ 70%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/DisplayImpl.cpp.obj
+[ 70%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/Renderer.cpp.obj
+[ 71%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/SurfaceImpl.cpp.obj
+[ 71%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/validationEGL.cpp.obj
+[ 71%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/validationES.cpp.obj
+[ 71%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/validationES2.cpp.obj
+[ 71%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/validationES3.cpp.obj
+[ 71%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/third_party/murmurhash/MurmurHash3.cpp.obj
+[ 71%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d9/Blit9.cpp.obj
+[ 72%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d9/Buffer9.cpp.obj
+[ 72%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d9/DebugAnnotator9.cpp.obj
+[ 72%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d9/Fence9.cpp.obj
+[ 72%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d9/formatutils9.cpp.obj
+[ 72%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d9/Framebuffer9.cpp.obj
+[ 72%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d9/Image9.cpp.obj
+[ 72%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d9/IndexBuffer9.cpp.obj
+[ 73%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d9/Query9.cpp.obj
+[ 73%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d9/Renderer9.cpp.obj
+[ 73%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d9/renderer9_utils.cpp.obj
+[ 73%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d9/RenderTarget9.cpp.obj
+[ 73%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d9/ShaderExecutable9.cpp.obj
+[ 73%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d9/StateManager9.cpp.obj
+[ 73%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d9/SwapChain9.cpp.obj
+[ 75%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d9/TextureStorage9.cpp.obj
+[ 75%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d9/VertexBuffer9.cpp.obj
+[ 75%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d9/VertexDeclarationCache.cpp.obj
+[ 75%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d11/Blit11.cpp.obj
+[ 75%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d11/Buffer11.cpp.obj
+[ 75%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d11/Clear11.cpp.obj
+[ 75%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d11/DebugAnnotator11.cpp.obj
+[ 76%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d11/dxgi_support_table.cpp.obj
+[ 76%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d11/Fence11.cpp.obj
+[ 76%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d11/formatutils11.cpp.obj
+[ 76%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d11/Framebuffer11.cpp.obj
+[ 76%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d11/Image11.cpp.obj
+[ 76%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d11/IndexBuffer11.cpp.obj
+[ 76%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d11/InputLayoutCache.cpp.obj
+[ 77%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d11/load_functions_table_autogen.cpp.obj
+[ 77%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d11/PixelTransfer11.cpp.obj
+[ 77%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d11/Query11.cpp.obj
+[ 77%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d11/Renderer11.cpp.obj
+[ 77%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d11/renderer11_utils.cpp.obj
+[ 77%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d11/RenderStateCache.cpp.obj
+[ 78%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d11/RenderTarget11.cpp.obj
+[ 78%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d11/ShaderExecutable11.cpp.obj
+[ 78%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d11/StateManager11.cpp.obj
+[ 78%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d11/Stream11.cpp.obj
+[ 78%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d11/SwapChain11.cpp.obj
+[ 78%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d11/TextureStorage11.cpp.obj
+[ 78%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d11/Trim11.cpp.obj
+[ 79%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d11/texture_format_table_autogen.cpp.obj
+[ 79%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d11/VertexArray11.cpp.obj
+[ 79%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d11/VertexBuffer11.cpp.obj
+[ 79%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/d3d11/win32/NativeWindow.cpp.obj
+[ 79%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/third_party/systeminfo/SystemInfo.cpp.obj
+[ 79%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/BufferD3D.cpp.obj
+[ 79%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/CompilerD3D.cpp.obj
+[ 80%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/copyimage.cpp.obj
+[ 80%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/DeviceD3D.cpp.obj
+[ 80%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/DisplayD3D.cpp.obj
+[ 80%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/DynamicHLSL.cpp.obj
+[ 80%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/EGLImageD3D.cpp.obj
+[ 80%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/formatutilsD3D.cpp.obj
+[ 80%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/FramebufferD3D.cpp.obj
+[ 81%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/HLSLCompiler.cpp.obj
+[ 81%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/ImageD3D.cpp.obj
+[ 81%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/IndexBuffer.cpp.obj
+[ 81%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/IndexDataManager.cpp.obj
+[ 81%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/loadimage.cpp.obj
+[ 81%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/loadimageSSE2.cpp.obj
+[ 81%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/loadimage_etc.cpp.obj
+[ 82%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/ProgramD3D.cpp.obj
+[ 82%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/RenderbufferD3D.cpp.obj
+[ 82%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/RendererD3D.cpp.obj
+[ 82%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/RenderTargetD3D.cpp.obj
+[ 82%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/ShaderD3D.cpp.obj
+[ 82%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/ShaderExecutableD3D.cpp.obj
+[ 83%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/SurfaceD3D.cpp.obj
+[ 83%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/TextureD3D.cpp.obj
+[ 83%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/TransformFeedbackD3D.cpp.obj
+[ 83%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/VaryingPacking.cpp.obj
+[ 83%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/VertexBuffer.cpp.obj
+[ 83%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/d3d/VertexDataManager.cpp.obj
+[ 83%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/gl/BlitGL.cpp.obj
+[ 84%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/gl/BufferGL.cpp.obj
+[ 84%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/gl/CompilerGL.cpp.obj
+[ 84%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/gl/DisplayGL.cpp.obj
+[ 84%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/gl/FenceNVGL.cpp.obj
+[ 84%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/gl/FenceSyncGL.cpp.obj
+[ 84%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/gl/FramebufferGL.cpp.obj
+[ 84%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/gl/FunctionsGL.cpp.obj
+[ 85%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/gl/ProgramGL.cpp.obj
+[ 85%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/gl/QueryGL.cpp.obj
+[ 85%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/gl/RenderbufferGL.cpp.obj
+[ 85%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/gl/RendererGL.cpp.obj
+[ 85%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/gl/SamplerGL.cpp.obj
+[ 85%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/gl/ShaderGL.cpp.obj
+[ 85%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/gl/StateManagerGL.cpp.obj
+[ 86%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/gl/SurfaceGL.cpp.obj
+[ 86%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/gl/TextureGL.cpp.obj
+[ 86%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/gl/TransformFeedbackGL.cpp.obj
+[ 86%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/gl/VertexArrayGL.cpp.obj
+[ 86%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/gl/formatutilsgl.cpp.obj
+[ 86%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/gl/renderergl_utils.cpp.obj
+[ 86%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/gl/wgl/DisplayWGL.cpp.obj
+[ 87%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/gl/wgl/DXGISwapChainWindowSurfaceWGL.cpp.obj
+[ 87%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/gl/wgl/FunctionsWGL.cpp.obj
+[ 87%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/gl/wgl/PbufferSurfaceWGL.cpp.obj
+[ 87%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/gl/wgl/WindowSurfaceWGL.cpp.obj
+[ 87%] Building CXX object extlib/angle/CMakeFiles/ANGLE.dir/src/libANGLE/renderer/gl/wgl/wgl_utils.cpp.obj
+[ 87%] Linking CXX static library ..\..\bin\libANGLE.a
+[ 87%] Built target ANGLE
+Scanning dependencies of target GLESv2
+[ 87%] Building CXX object extlib/angle/CMakeFiles/GLESv2.dir/src/libGLESv2/entry_points_egl.cpp.obj
+[ 87%] Building CXX object extlib/angle/CMakeFiles/GLESv2.dir/src/libGLESv2/entry_points_egl_ext.cpp.obj
+[ 88%] Building CXX object extlib/angle/CMakeFiles/GLESv2.dir/src/libGLESv2/entry_points_gles_2_0.cpp.obj
+[ 88%] Building CXX object extlib/angle/CMakeFiles/GLESv2.dir/src/libGLESv2/entry_points_gles_2_0_ext.cpp.obj
+[ 88%] Building CXX object extlib/angle/CMakeFiles/GLESv2.dir/src/libGLESv2/entry_points_gles_3_0.cpp.obj
+[ 88%] Building CXX object extlib/angle/CMakeFiles/GLESv2.dir/src/libGLESv2/global_state.cpp.obj
+[ 88%] Building CXX object extlib/angle/CMakeFiles/GLESv2.dir/src/libGLESv2/libGLESv2.cpp.obj
+[ 88%] Building RC object extlib/angle/CMakeFiles/GLESv2.dir/src/libGLESv2/libGLESv2.rc.obj
+[ 88%] Linking CXX static library ..\..\bin\libGLESv2.a
+[ 88%] Built target GLESv2
+Scanning dependencies of target EGL
+[ 88%] Building CXX object extlib/angle/CMakeFiles/EGL.dir/src/libEGL/libEGL.cpp.obj
+[ 88%] Building RC object extlib/angle/CMakeFiles/EGL.dir/src/libEGL/libEGL.rc.obj
+[ 88%] Linking CXX static library ..\..\bin\libEGL.a
+[ 88%] Built target EGL
+Scanning dependencies of target solvespace
+[ 88%] Building CXX object src/CMakeFiles/solvespace.dir/solvespace.cpp.obj
+[ 88%] Building CXX object src/CMakeFiles/solvespace.dir/render/gl3shader.cpp.obj
+[ 88%] Building CXX object src/CMakeFiles/solvespace.dir/render/rendergl3.cpp.obj
+[ 88%] Building CXX object src/CMakeFiles/solvespace.dir/platform/entrygui.cpp.obj
+[ 89%] Building CXX object src/CMakeFiles/solvespace.dir/platform/guiwin.cpp.obj
+[ 89%] Building RC object src/CMakeFiles/solvespace.dir/__/res/resources.rc.obj
+[ 89%] Linking CXX executable ..\bin\solvespace.exe
+[ 89%] Built target solvespace
+[ 89%] Building C object exposed/CMakeFiles/CDemo.dir/CDemo.c.obj
+[ 90%] Linking C executable ..\bin\CDemo.exe
+[ 90%] Built target CDemo
+Scanning dependencies of target solvespace-testsuite
+[ 90%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/harness.cpp.obj
+[ 91%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/analysis/contour_area/test.cpp.obj
+[ 91%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/core/expr/test.cpp.obj
+[ 91%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/core/locale/test.cpp.obj
+[ 91%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/core/path/test.cpp.obj
+[ 91%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/points_coincident/test.cpp.obj
+[ 91%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/pt_pt_distance/test.cpp.obj
+[ 91%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/pt_plane_distance/test.cpp.obj
+[ 92%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/pt_line_distance/test.cpp.obj
+[ 92%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/pt_face_distance/test.cpp.obj
+[ 92%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/proj_pt_distance/test.cpp.obj
+[ 92%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/pt_in_plane/test.cpp.obj
+[ 92%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/pt_on_line/test.cpp.obj
+[ 92%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/pt_on_face/test.cpp.obj
+[ 92%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/equal_length_lines/test.cpp.obj
+[ 93%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/length_ratio/test.cpp.obj
+[ 93%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/eq_len_pt_line_d/test.cpp.obj
+[ 93%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/eq_pt_ln_distances/test.cpp.obj
+[ 93%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/equal_angle/test.cpp.obj
+[ 93%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/equal_line_arc_len/test.cpp.obj
+[ 93%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/length_difference/test.cpp.obj
+[ 94%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/symmetric/test.cpp.obj
+[ 94%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/symmetric_horiz/test.cpp.obj
+[ 94%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/symmetric_vert/test.cpp.obj
+[ 94%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/symmetric_line/test.cpp.obj
+[ 94%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/at_midpoint/test.cpp.obj
+[ 94%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/horizontal/test.cpp.obj
+[ 94%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/vertical/test.cpp.obj
+[ 95%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/diameter/test.cpp.obj
+[ 95%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/pt_on_circle/test.cpp.obj
+[ 95%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/same_orientation/test.cpp.obj
+[ 95%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/angle/test.cpp.obj
+[ 95%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/parallel/test.cpp.obj
+[ 95%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/perpendicular/test.cpp.obj
+[ 95%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/arc_line_tangent/test.cpp.obj
+[ 96%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/cubic_line_tangent/test.cpp.obj
+[ 96%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/curve_curve_tangent/test.cpp.obj
+[ 96%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/equal_radius/test.cpp.obj
+[ 96%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/where_dragged/test.cpp.obj
+[ 96%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/constraint/comment/test.cpp.obj
+[ 96%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/request/arc_of_circle/test.cpp.obj
+[ 96%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/request/circle/test.cpp.obj
+[ 97%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/request/cubic/test.cpp.obj
+[ 97%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/request/cubic_periodic/test.cpp.obj
+[ 97%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/request/datum_point/test.cpp.obj
+[ 97%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/request/image/test.cpp.obj
+[ 97%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/request/line_segment/test.cpp.obj
+[ 97%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/request/ttf_text/test.cpp.obj
+[ 97%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/request/workplane/test.cpp.obj
+[ 98%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/group/link/test.cpp.obj
+[ 98%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/group/translate_asy/test.cpp.obj
+[ 98%] Building CXX object test/CMakeFiles/solvespace-testsuite.dir/group/translate_nd/test.cpp.obj
+[ 98%] Building RC object test/CMakeFiles/solvespace-testsuite.dir/__/res/resources.rc.obj
+[ 98%] Linking CXX executable ..\bin\solvespace-testsuite.exe
+[ 98%] Built target solvespace-testsuite
+Scanning dependencies of target solvespace-debugtool
+[ 98%] Building CXX object test/CMakeFiles/solvespace-debugtool.dir/debugtool.cpp.obj
+[100%] Building RC object test/CMakeFiles/solvespace-debugtool.dir/__/res/resources.rc.obj
+[100%] Linking CXX executable ..\bin\solvespace-debugtool.exe
+[100%] Built target solvespace-debugtool
+Scanning dependencies of target solvespace-benchmark
+[100%] Building CXX object bench/CMakeFiles/solvespace-benchmark.dir/harness.cpp.obj
+[100%] Building RC object bench/CMakeFiles/solvespace-benchmark.dir/__/res/resources.rc.obj
+[100%] Linking CXX executable ..\bin\solvespace-benchmark.exe
+[100%] Built target solvespace-benchmark
+
+C:\tmp\solvespace\build>
